@@ -1,2 +1,12 @@
 business:
-    info: Business Service Development
+  info: Business Microservices DEV
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5431/spring-ms
+    username: postgres
+    password: qwer
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
