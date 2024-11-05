@@ -3,7 +3,7 @@ business:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5431/spring-ms
+    url: jdbc:postgresql://localhost:5431/service 
     username: maimai
     password: 123
   jpa:
